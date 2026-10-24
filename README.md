@@ -14,9 +14,9 @@ package revision is `5.6.40+dfsg-0+deb8u12+local20261023.1`.
 | Pinned source inputs and three vendor patches | Included |
 | Source preparation recipe | Included; see its validation limits |
 | Native armhf build and selected runtime smoke tests | Reported PASS on 24 October 2026 |
-| Twelve deployed `.deb` files | Awaiting import and publication |
-| Exact corresponding source package for those binaries | Awaiting recovery and export |
-| Binary GitHub Release | Not published |
+| Twelve original native `.deb` files | Included in the [versioned release](https://github.com/tomasgal/legacy-arm-builds/releases/tag/php5-jessie-armhf-local20261023.1) |
+| Exact corresponding source package for those binaries | Exported and verified against the original pre-build tree |
+| Binary GitHub Release | [php5-jessie-armhf-local20261023.1](https://github.com/tomasgal/legacy-arm-builds/releases/tag/php5-jessie-armhf-local20261023.1) |
 
 **This is a targeted mitigation for end-of-life software.** It does not restore
 general security support for PHP 5.6 or Debian Jessie, and it does not contain
@@ -33,6 +33,8 @@ terminate the process immediately, without normal PHP shutdown callbacks or
 destructors. In mod_php, the Apache worker may terminate. The patch also disables
 PHP session upload progress in code. Read the [patch manifest](php5/PATCHES.md)
 before evaluating a deployment.
+
+The release retains the original binary bytes and original local changelog. It includes the full Debian source package, checksums, and third-party notices. The source preparation helper remains a distinct `+rebuild1` recipe.
 
 ## Contents
 

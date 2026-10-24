@@ -19,7 +19,18 @@ bootstrap. Use an independently prepared and appropriately authenticated Jessie
 armhf build environment. Do not solve expired archive metadata by disabling
 package authentication globally or changing a production clock.
 
-## Prepare source
+## Original released source
+
+For the original revision, download all three corresponding source files and `SHA256SUMS` from the [release](https://github.com/tomasgal/legacy-arm-builds/releases/tag/php5-jessie-armhf-local20261023.1). Verify the checksums, then extract the local descriptor:
+
+```sh
+grep -E '[.]dsc$|[.]orig[.]tar[.]gz$|[.]debian[.]tar[.]xz$' SHA256SUMS | sha256sum -c -
+dpkg-source --no-check -x php5_5.6.40+dfsg-0+deb8u12+local20261023.1.dsc
+```
+
+The descriptor is unsigned; the checksum check is not independent publisher authentication. Build that extracted source in a matching, independently prepared Jessie armhf environment using the native command below. No bit-for-bit output claim is made.
+
+## Prepare separate recipe source
 
 Requires Linux/POSIX shell, curl, tar with xz/gzip support, sha256sum, cmp,
 dpkg-source, and dpkg-parsechangelog. Run as an ordinary user. The output path

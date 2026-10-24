@@ -53,6 +53,15 @@ fixtures are not PHP builds and are not release assets. Run these helper tests:
 python3 -m unittest discover -s php5/tests -p 'test_*.py' -v
 ```
 
+## Original asset import and source export, 24 October 2026
+
+- The original twelve binaries match their original native `.changes` SHA-256 entries. Package names, exact versions, architectures, and readable payload archives passed the existing verifier.
+- The original source input hashes, three vendor patch hashes, and 82-entry series match the pinned records. The PHP license and Debian copyright inventory are retained verbatim.
+- The complete source package was exported from a copy of the exact pre-build tree. Re-extraction matched all 18,008 regular-file/symlink entries by content, link target, and executable flag, excluding quilt bookkeeping.
+- Twenty selected patched-runtime and packaging files match the completed native build tree. The original generic local changelog is unchanged.
+- Binary control fields, payloads, compressed documentation, and source archives were inspected for operator-specific contact, host, network, repository, and deployment-path strings; no such matches were found. Required upstream attribution was retained.
+- No runtime build, installation, or previously accepted runtime test was repeated for publication. The [manifest](original-build.json) records the scope and actual artifact hashes.
+
 ## Unverified areas
 
 - The full PHP/Debian suite was skipped during the original build (`nocheck`).
@@ -61,8 +70,6 @@ python3 -m unittest discover -s php5/tests -p 'test_*.py' -v
 - A live package downgrade/rollback was not executed.
 - Long-term reliability and arbitrary applications, inputs, devices, or
   distributions were not evaluated.
-- Binary asset privacy and exact corresponding source export remain pending
-  until the original build outputs are recovered.
 
 The public CLI smoke scripts are newly supplied helpers, not a claim that the
 original test harness has been recovered. Run failure-path tests in isolation.
@@ -79,5 +86,4 @@ expects that PHP process to exit with status 1, without a shutdown callback:
 sh php5/tests/oom-cli.sh /absolute/path/to/php5
 ```
 
-These new PHP smoke helpers have not been rerun against the unavailable original
-ARM host. The recorded original tests above remain a separate evidence boundary.
+These new PHP smoke helpers were not run as part of the publication audit. The recorded original tests above remain a separate evidence boundary.

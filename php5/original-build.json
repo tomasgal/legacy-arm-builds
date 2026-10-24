@@ -1,0 +1,274 @@
+{
+  "licenses": {
+    "complete_php5_corresponding_source_included": true,
+    "notice_file": "THIRD-PARTY-NOTICES.txt",
+    "php_license_and_debian_component_inventory_retained_verbatim": true,
+    "project_documentation_license_in_notice": "MIT",
+    "standard_license_texts_in_notice": [
+      "Apache-2.0",
+      "GPL-2",
+      "GPL-3",
+      "LGPL-2",
+      "LGPL-2.1",
+      "LGPL-3"
+    ]
+  },
+  "native_source_correspondence": {
+    "all_selected_files_identical": true,
+    "file_count": 20,
+    "files": [
+      {
+        "native_build_tree_sha256": "183206497542ea5f70f7ec37005eea06ed8c3ab22ffa09e2ba03d77493ce8cd4",
+        "path": "Zend/zend_API.c",
+        "prebuild_sha256": "183206497542ea5f70f7ec37005eea06ed8c3ab22ffa09e2ba03d77493ce8cd4"
+      },
+      {
+        "native_build_tree_sha256": "5fe967d9e5f6038ab3df6a3b5509f75149351f6c0a39a877a0d5d853c80a862b",
+        "path": "Zend/zend_API.h",
+        "prebuild_sha256": "5fe967d9e5f6038ab3df6a3b5509f75149351f6c0a39a877a0d5d853c80a862b"
+      },
+      {
+        "native_build_tree_sha256": "2709d9182f3b86154b76ee91c16cfba3075e1de64aa4c791546cde82aa451e63",
+        "path": "Zend/zend_alloc.c",
+        "prebuild_sha256": "2709d9182f3b86154b76ee91c16cfba3075e1de64aa4c791546cde82aa451e63"
+      },
+      {
+        "native_build_tree_sha256": "f7da768d0a9f41fce747e6d07d3f673e698c092818dcb5f0ce8d1baa1ea0317e",
+        "path": "Zend/zend_alloc.h",
+        "prebuild_sha256": "f7da768d0a9f41fce747e6d07d3f673e698c092818dcb5f0ce8d1baa1ea0317e"
+      },
+      {
+        "native_build_tree_sha256": "3ee248cebc87c296bded005850deaa3e58a29045bf89e5eeb7ee58f8d91ed222",
+        "path": "Zend/zend_execute_API.c",
+        "prebuild_sha256": "3ee248cebc87c296bded005850deaa3e58a29045bf89e5eeb7ee58f8d91ed222"
+      },
+      {
+        "native_build_tree_sha256": "32c112651e68f9e1cf42ea1bd84da6f31563efab8d8b11e9a42551509da685bd",
+        "path": "Zend/zend_llist.c",
+        "prebuild_sha256": "32c112651e68f9e1cf42ea1bd84da6f31563efab8d8b11e9a42551509da685bd"
+      },
+      {
+        "native_build_tree_sha256": "ecee3e32a24d5b7623f1c1e06d311baa73b1aa426d98278b95eb39d07bd38b6d",
+        "path": "Zend/zend_operators.c",
+        "prebuild_sha256": "ecee3e32a24d5b7623f1c1e06d311baa73b1aa426d98278b95eb39d07bd38b6d"
+      },
+      {
+        "native_build_tree_sha256": "2ad1ec6b5bd72ba0d177f93e72002a24cdcb45a35d2b1cd802d0deed38fa7526",
+        "path": "Zend/zend_strtod.c",
+        "prebuild_sha256": "2ad1ec6b5bd72ba0d177f93e72002a24cdcb45a35d2b1cd802d0deed38fa7526"
+      },
+      {
+        "native_build_tree_sha256": "58c8daf9313bd6c641330b3ba375a200212e98641547ccaef34883c0238496ae",
+        "path": "ext/session/session.c",
+        "prebuild_sha256": "58c8daf9313bd6c641330b3ba375a200212e98641547ccaef34883c0238496ae"
+      },
+      {
+        "native_build_tree_sha256": "d7339b04f9d3718b62947db250b7ce51e2008d8843e16edd64f4952ba2e9c2f7",
+        "path": "main/SAPI.c",
+        "prebuild_sha256": "d7339b04f9d3718b62947db250b7ce51e2008d8843e16edd64f4952ba2e9c2f7"
+      },
+      {
+        "native_build_tree_sha256": "87f1ec9323d55bd2aa519b1f8d66825c9a4643ce349640e74d8cdb53119bd2b2",
+        "path": "main/main.c",
+        "prebuild_sha256": "87f1ec9323d55bd2aa519b1f8d66825c9a4643ce349640e74d8cdb53119bd2b2"
+      },
+      {
+        "native_build_tree_sha256": "54dbf232f50da8293b8eca39cf7a001030fb0c8fbff1c62b2a35317a5cb84039",
+        "path": "main/php_variables.c",
+        "prebuild_sha256": "54dbf232f50da8293b8eca39cf7a001030fb0c8fbff1c62b2a35317a5cb84039"
+      },
+      {
+        "native_build_tree_sha256": "7c1345d43cf07901d49c7692eb12854ea2761bba68a4793986c2fbca21020c7f",
+        "path": "main/rfc1867.c",
+        "prebuild_sha256": "7c1345d43cf07901d49c7692eb12854ea2761bba68a4793986c2fbca21020c7f"
+      },
+      {
+        "native_build_tree_sha256": "3ee3c08370702b90b2cdfea040256c62624f83d75f3fa49a308beb02a3ea6462",
+        "path": "debian/rules",
+        "prebuild_sha256": "3ee3c08370702b90b2cdfea040256c62624f83d75f3fa49a308beb02a3ea6462"
+      },
+      {
+        "native_build_tree_sha256": "8623b945b786eb568cbe1a2da11459fc5b2933cadba755bdc1f566f3bc361634",
+        "path": "debian/control",
+        "prebuild_sha256": "8623b945b786eb568cbe1a2da11459fc5b2933cadba755bdc1f566f3bc361634"
+      },
+      {
+        "native_build_tree_sha256": "aa947af90df0ee19c4b3f7917eddc3847646dee368fc5241b8749076b79760c0",
+        "path": "debian/changelog",
+        "prebuild_sha256": "aa947af90df0ee19c4b3f7917eddc3847646dee368fc5241b8749076b79760c0"
+      },
+      {
+        "native_build_tree_sha256": "fddb7984f72c39eaa4fd06d3d6ac47b3845c194e23b9c614b55173ffc126008f",
+        "path": "debian/patches/series",
+        "prebuild_sha256": "fddb7984f72c39eaa4fd06d3d6ac47b3845c194e23b9c614b55173ffc126008f"
+      },
+      {
+        "native_build_tree_sha256": "d945982b5ab29bc5c42d1892750d72d39ae911df8b9f4f5ea47d133707ab72a4",
+        "path": "debian/patches/0261-Avoid-state-corruption-via-bailout.patch",
+        "prebuild_sha256": "d945982b5ab29bc5c42d1892750d72d39ae911df8b9f4f5ea47d133707ab72a4"
+      },
+      {
+        "native_build_tree_sha256": "bbb0caf07682ec8815097049920ea04b3ca81f53e9066df8ee637c410427f658",
+        "path": "debian/patches/0262-Fix-repeated-warning-for-file-uploads-limit-exceedin.patch",
+        "prebuild_sha256": "bbb0caf07682ec8815097049920ea04b3ca81f53e9066df8ee637c410427f658"
+      },
+      {
+        "native_build_tree_sha256": "2dbf19354960813482ef1bf6799d3f1aa02433a146825941917bdf6a1d414d90",
+        "path": "debian/patches/0263-Introduce-max_multipart_body_parts-INI.patch",
+        "prebuild_sha256": "2dbf19354960813482ef1bf6799d3f1aa02433a146825941917bdf6a1d414d90"
+      }
+    ]
+  },
+  "package_version": "5.6.40+dfsg-0+deb8u12+local20261023.1",
+  "packages": [
+    {
+      "architecture": "armhf",
+      "filename": "libapache2-mod-php5_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "libapache2-mod-php5",
+      "sha256": "1e852c95f4a343cd0c7c43b2b774bd7832a8176e36d5f6b11e2edcec15fb8e08",
+      "size_bytes": 1940130,
+      "source": "php5"
+    },
+    {
+      "architecture": "all",
+      "filename": "php5_5.6.40+dfsg-0+deb8u12+local20261023.1_all.deb",
+      "name": "php5",
+      "sha256": "7277e72a3e5b2c077b153e2e04b0e7ac877fb5442ec91515b7c52250263f17bb",
+      "size_bytes": 1330,
+      "source": ""
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-cli_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-cli",
+      "sha256": "edc8a22f7edbf35aa48d84d7a04e1fdc3b0bb5a7ba562a85419ca0fe494bd231",
+      "size_bytes": 1968920,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-common_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-common",
+      "sha256": "43db10b1d1c2cf27d42245995c78a9b2ec21d28ce87eb1a9efdd8ad3d246811e",
+      "size_bytes": 408818,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-curl_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-curl",
+      "sha256": "9ee0377883de9ba24b6b389312e6c837f0c800afd28b361ddfcc6395f52ac3a6",
+      "size_bytes": 24802,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-dev_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-dev",
+      "sha256": "3119a01eca5de1d1baeb6a7b0df35e95882c9a9efd1864a7fe4c166e3e93798f",
+      "size_bytes": 357876,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-fpm_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-fpm",
+      "sha256": "ddc4b86c2ea5a94afdfdd0ae284b86987d61f8e7ae99dc77d6939cc9778e5398",
+      "size_bytes": 1979576,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-gd_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-gd",
+      "sha256": "0f91ef1e39a478335a5700376edd52543927ba4057872c7c07985f1060d6c16e",
+      "size_bytes": 23712,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-gmp_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-gmp",
+      "sha256": "dbe95b6aea7b86685f9565572668b885b333b03e8e4a2b36b571692a5b1c2cde",
+      "size_bytes": 18700,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-intl_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-intl",
+      "sha256": "b36bda283a958d4d60fbc60e449f3599e477348d198cc08ed668620f47fb0e29",
+      "size_bytes": 95706,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-mcrypt_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-mcrypt",
+      "sha256": "ba8dcbca39d44ffd14dcd436cf9aa94f757b68124d3599217ea87d4c240ecb0b",
+      "size_bytes": 13400,
+      "source": "php5"
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-mysql_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-mysql",
+      "sha256": "6f2d258005f16f1785c63e8620c9511d27444e893daefa8c859e78166d8a259a",
+      "size_bytes": 53848,
+      "source": "php5"
+    }
+  ],
+  "privacy_inspection": {
+    "generic_local_changelog_identity_retained": true,
+    "operator_specific_pattern_hits": 0,
+    "original_binary_control_and_payload_inspected": true,
+    "source_archives_inspected": true
+  },
+  "release_tag": "php5-jessie-armhf-local20261023.1",
+  "schema_version": 1,
+  "source_audit": {
+    "full_source_roundtrip_identical_excluding_quilt_bookkeeping": true,
+    "original_binary_changes_sha256_match": true,
+    "patch_series_length": 82,
+    "patches": {
+      "0261-Avoid-state-corruption-via-bailout.patch": "d945982b5ab29bc5c42d1892750d72d39ae911df8b9f4f5ea47d133707ab72a4",
+      "0262-Fix-repeated-warning-for-file-uploads-limit-exceedin.patch": "bbb0caf07682ec8815097049920ea04b3ca81f53e9066df8ee637c410427f658",
+      "0263-Introduce-max_multipart_body_parts-INI.patch": "2dbf19354960813482ef1bf6799d3f1aa02433a146825941917bdf6a1d414d90"
+    },
+    "pinned_base_inputs": {
+      "php5_5.6.40+dfsg-0+deb8u12.debian.tar.xz": "4ad44b74eb76b077c3f44b81266cc5b1cb47d138b0af70c1a2b57afbce02aafa",
+      "php5_5.6.40+dfsg-0+deb8u12.dsc": "57771203be7b7f8485bcf4e134e2ffffcd93574780d3f9c68a49b79a73c4382e",
+      "php5_5.6.40+dfsg.orig.tar.gz": "1ffdf771591b6afdff5c3b2b22febe6043f92bc67bb6f8e4629183127819345d"
+    },
+    "prebuild_changelog_sha256": "aa947af90df0ee19c4b3f7917eddc3847646dee368fc5241b8749076b79760c0",
+    "runtime_rebuilt_or_reinstalled": false,
+    "selected_binary_count": 12,
+    "source_assets": [
+      {
+        "filename": "php5_5.6.40+dfsg-0+deb8u12+local20261023.1.dsc",
+        "sha256": "1ed7375db370e244f095bdcb6eeabf032fcfc9b35144a0eb714dd4184a70e685",
+        "size_bytes": 4281
+      },
+      {
+        "filename": "php5_5.6.40+dfsg.orig.tar.gz",
+        "sha256": "1ffdf771591b6afdff5c3b2b22febe6043f92bc67bb6f8e4629183127819345d",
+        "size_bytes": 19441072
+      },
+      {
+        "filename": "php5_5.6.40+dfsg-0+deb8u12+local20261023.1.debian.tar.xz",
+        "sha256": "8a266ed476f3677b78d447bb7b5c6afbb23e11254036598027909649ea462bbf",
+        "size_bytes": 265856
+      }
+    ],
+    "source_regular_files_and_symlinks_compared": 18008
+  },
+  "validation_boundaries": {
+    "bit_for_bit_rebuild_verified": false,
+    "full_test_suite_run": false,
+    "native_build_options": "parallel=1 nocheck",
+    "original_binary_bytes_preserved": true,
+    "original_binary_sha256_compared_to_native_changes_file": true,
+    "runtime_rebuilt_or_reinstalled_during_publication": false,
+    "source_descriptor_signed": false
+  }
+}

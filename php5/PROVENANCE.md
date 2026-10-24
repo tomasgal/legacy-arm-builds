@@ -48,5 +48,6 @@ environment. Its distinct package revision ends in `+rebuild1`. It must not be
 presented as the exact corresponding source of the previously deployed binaries,
 or as proof of a bit-for-bit reproducible build.
 
-The complete corresponding source package for the deployed
-`+local20261023.1` binaries remains a release prerequisite.
+The complete corresponding source package for the original `+local20261023.1` binaries is included in the [versioned release](https://github.com/tomasgal/legacy-arm-builds/releases/tag/php5-jessie-armhf-local20261023.1). It consists of the local `.dsc`, the unchanged upstream `.orig.tar.gz`, and the local `.debian.tar.xz`. Its original local changelog was preserved, with SHA-256 `aa947af90df0ee19c4b3f7917eddc3847646dee368fc5241b8749076b79760c0`.
+
+Unpacking this source package reproduces all 18,008 regular-file/symlink entries of the recovered pre-build tree by content, link target, and executable flag, excluding quilt bookkeeping. Twenty selected patched-runtime and packaging files also match the completed native build tree. See [original-build.json](original-build.json) and [SHA256SUMS](SHA256SUMS) for the recorded evidence. The local source descriptor is unsigned.

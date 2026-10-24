@@ -1,8 +1,8 @@
-# Publishing the first binary release
+# Original native binary release
 
-No binary release is currently published. The planned package version is
-`5.6.40+dfsg-0+deb8u12+local20261023.1`. See
-[release-plan.json](release-plan.json) for the twelve selected filenames.
+The [original native release](https://github.com/tomasgal/legacy-arm-builds/releases/tag/php5-jessie-armhf-local20261023.1) contains package version `5.6.40+dfsg-0+deb8u12+local20261023.1`. Its 18 assets are the twelve selected `.deb` files, three complete corresponding Debian source files, `THIRD-PARTY-NOTICES.txt`, `BUILD-MANIFEST.json`, and `SHA256SUMS`. Checksums cover all other release assets. See [release-plan.json](release-plan.json) for actual hashes, sizes, and filenames.
+
+Original binary bytes were preserved and checked against the original native `.changes`. The exact original source and changelog were recovered and exported; this is separate from the `+rebuild1` helper. No PHP runtime was rebuilt or reinstalled while publishing. The following checklist also applies to future releases.
 
 ## Release prerequisites
 
@@ -53,4 +53,5 @@ and PHP session upload progress are different features; the latter is disabled
 by patch 0261. Recovery must use that deployment's own original packages and
 configuration, not another host's backup.
 
-No download-and-install one-liner is provided while the release is incomplete.
+No automatic download-and-install one-liner is provided; deployment-specific
+compatibility and recovery checks remain necessary.
