@@ -1,0 +1,13 @@
+*.deb
+*.changes
+*.buildinfo
+*.dsc
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.log
+__pycache__/
+*.pyc
+/build/
+/artifacts/
+/downloads/

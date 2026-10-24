@@ -1,0 +1,99 @@
+{
+  "base_source_version": "5.6.40+dfsg-0+deb8u12",
+  "binary_assets_published": false,
+  "corresponding_source_exported": false,
+  "full_test_suite_run": false,
+  "native_architecture": "armhf",
+  "package_version": "5.6.40+dfsg-0+deb8u12+local20261023.1",
+  "packages": [
+    {
+      "architecture": "armhf",
+      "filename": "libapache2-mod-php5_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "libapache2-mod-php5",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "all",
+      "filename": "php5_5.6.40+dfsg-0+deb8u12+local20261023.1_all.deb",
+      "name": "php5",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-cli_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-cli",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-common_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-common",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-curl_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-curl",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-dev_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-dev",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-fpm_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-fpm",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-gd_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-gd",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-gmp_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-gmp",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-intl_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-intl",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-mcrypt_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-mcrypt",
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "architecture": "armhf",
+      "filename": "php5-mysql_5.6.40+dfsg-0+deb8u12+local20261023.1_armhf.deb",
+      "name": "php5-mysql",
+      "sha256": null,
+      "size_bytes": null
+    }
+  ],
+  "release_state": "pending-artifact-import",
+  "schema_version": 1,
+  "status_date": "2026-10-24",
+  "target_distribution": "Debian 8 Jessie",
+  "tested_board": "Orange Pi Plus 2"
+}

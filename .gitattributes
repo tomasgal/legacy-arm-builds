@@ -1,0 +1,2 @@
+# Preserve vendored patch hashes and POSIX script line endings on every platform.
+* text=auto eol=lf
